@@ -1,6 +1,6 @@
-## NetOCR: A Lightweight OCR Model
+# NetOCR: A Lightweight OCR Model
 
-### 📖 Overview
+## 📖 Overview
 
 NetOCR is a lightweight Convolutional Neural Network (CNN) designed for Optical Character Recognition (OCR).
 Unlike heavy deep architectures like ResNet-18, NetOCR focuses on efficiency, fewer parameters, and competitive accuracy, making it suitable for real-world OCR tasks where speed and memory usage are critical.
@@ -10,9 +10,9 @@ Unlike heavy deep architectures like ResNet-18, NetOCR focuses on efficiency, fe
 | **ResNet-18**             | 11,187,682       | 11,187,682           | \~96%    | Deep residual architecture, high complexity            |
 | **NetOCR (Proposed CNN)** | **424,738**      | **424,738**          | \~95%    | Lightweight CNN, faster training, low memory footprint |
 
-### 📊 Training Results
+## 📊 Training Results
 
-#### ResNet-18
+### ResNet-18
 
 Accuracy: High training accuracy (>98%) but validation accuracy saturates around 95–96%.
 
@@ -23,7 +23,7 @@ Drawback: Requires large computational resources due to 11M+ parameters.
 <img src="Output\restnet18.png"></img>
 
 
-#### NetOCR (Proposed CNN)
+### NetOCR (Proposed CNN)
 
 Accuracy: Achieves >94% validation accuracy with stable training.
 
@@ -33,44 +33,44 @@ Advantage: Only 424K parameters, ~26x fewer parameters than ResNet-18.
 
 <img src="Output\cnn.png"></img>
 
-### ✅ Why NetOCR is Better
+## ✅ Why NetOCR is Better
 
-#### Lightweight:
+### Lightweight:
 
 NetOCR has 424,738 parameters, compared to 11,187,682 in ResNet-18.
 
 Requires far less memory, making it deployable on edge devices and mobile platforms.
 
-#### Faster Training & Inference:
+### Faster Training & Inference:
 
 Trains significantly faster with fewer computations.
 
 Ideal for real-time OCR applications.
 
-#### Generalization:
+### Generalization:
 
 Despite being smaller, NetOCR maintains competitive accuracy.
 
 Training vs validation curves show less overfitting compared to ResNet-18.
 
-#### Practical for Deployment:
+### Practical for Deployment:
 
 Can be integrated in low-resource environments (IoT, embedded devices).
 
 Efficient without sacrificing much accuracy.
 
-#### OCR Outputs
+## OCR Outputs
 
 ### Restnet18:
 
 <img src="Output\restnet18_ocr.png"></img>
 
 
-#### NetOCR:
+### NetOCR:
 
 <img src="Output\Proposed_cnn_ocr.png"></img>
 
-### 🚀 Conclusion
+## 🚀 Conclusion
 
 NetOCR demonstrates that lightweight CNNs can achieve near state-of-the-art performance in OCR tasks while being highly resource-efficient.
 This makes it a strong alternative to deeper architectures like ResNet-18 when working with limited hardware or real-time deployment scenarios.
