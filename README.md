@@ -20,6 +20,7 @@ Loss: Training loss decreases steadily, validation loss fluctuates indicating mi
 
 Drawback: Requires large computational resources due to 11M+ parameters.
 
+![App Screenshot]("C:\PROJECTS\OCR\Output\restnet18.png")
 
 #### NetOCR (Proposed CNN)
 
@@ -29,6 +30,7 @@ Loss: Both training and validation loss decrease consistently with less gap, sho
 
 Advantage: Only 424K parameters, ~26x fewer parameters than ResNet-18.
 
+![App Screenshot]("C:\PROJECTS\OCR\Output\cnn.png")
 
 ### ✅ Why NetOCR is Better
 
@@ -56,6 +58,14 @@ Can be integrated in low-resource environments (IoT, embedded devices).
 
 Efficient without sacrificing much accuracy.
 
+
+#### OCR Outputs
+
+### Restnet18:
+![App Screenshot]("C:\PROJECTS\OCR\Output\restnet18_ocr.png")
+
+#### NetOCR:
+![App Screenshot]("C:\PROJECTS\OCR\Output\Proposed_cnn_ocr.png")
 
 ### 🚀 Conclusion
 
