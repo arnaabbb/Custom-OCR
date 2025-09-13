@@ -20,7 +20,7 @@ Loss: Training loss decreases steadily, validation loss fluctuates indicating mi
 
 Drawback: Requires large computational resources due to 11M+ parameters.
 
-![App Screenshot]("Output\restnet18.png")
+![App Screenshot]("https://raw.githubusercontent.com/arnaabbb/Custom-OCR/refs/heads/main/Output/restnet18.png")
 
 #### NetOCR (Proposed CNN)
 
