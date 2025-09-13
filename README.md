@@ -1,17 +1,17 @@
 ## NetOCR: A Lightweight OCR Model
+
 ### 📖 Overview
 
 NetOCR is a lightweight Convolutional Neural Network (CNN) designed for Optical Character Recognition (OCR).
 Unlike heavy deep architectures like ResNet-18, NetOCR focuses on efficiency, fewer parameters, and competitive accuracy, making it suitable for real-world OCR tasks where speed and memory usage are critical.
-
 
 | Model                     | Total Parameters | Trainable Parameters | Accuracy | Key Notes                                              |
 | ------------------------- | ---------------- | -------------------- | -------- | ------------------------------------------------------ |
 | **ResNet-18**             | 11,187,682       | 11,187,682           | \~96%    | Deep residual architecture, high complexity            |
 | **NetOCR (Proposed CNN)** | **424,738**      | **424,738**          | \~95%    | Lightweight CNN, faster training, low memory footprint |
 
-
 ### 📊 Training Results
+
 #### ResNet-18
 
 Accuracy: High training accuracy (>98%) but validation accuracy saturates around 95–96%.
@@ -20,7 +20,7 @@ Loss: Training loss decreases steadily, validation loss fluctuates indicating mi
 
 Drawback: Requires large computational resources due to 11M+ parameters.
 
-![App Screenshot]("C:\PROJECTS\OCR\Output\restnet18.png")
+![App Screenshot]("Output\restnet18.png")
 
 #### NetOCR (Proposed CNN)
 
@@ -58,13 +58,14 @@ Can be integrated in low-resource environments (IoT, embedded devices).
 
 Efficient without sacrificing much accuracy.
 
-
 #### OCR Outputs
 
 ### Restnet18:
+
 ![App Screenshot]("C:\PROJECTS\OCR\Output\restnet18_ocr.png")
 
 #### NetOCR:
+
 ![App Screenshot]("C:\PROJECTS\OCR\Output\Proposed_cnn_ocr.png")
 
 ### 🚀 Conclusion
