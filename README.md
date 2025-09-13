@@ -19,8 +19,7 @@ Accuracy: High training accuracy (>98%) but validation accuracy saturates around
 Loss: Training loss decreases steadily, validation loss fluctuates indicating mild overfitting.
 
 Drawback: Requires large computational resources due to 11M+ parameters.
-
-![App Screenshot]("https://raw.githubusercontent.com/arnaabbb/Custom-OCR/refs/heads/main/Output/restnet18.png")
+<img src="https://raw.githubusercontent.com/arnaabbb/Custom-OCR/refs/heads/main/Output/restnet18.png"></img>
 
 #### NetOCR (Proposed CNN)
 
