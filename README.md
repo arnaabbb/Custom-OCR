@@ -19,7 +19,9 @@ Accuracy: High training accuracy (>98%) but validation accuracy saturates around
 Loss: Training loss decreases steadily, validation loss fluctuates indicating mild overfitting.
 
 Drawback: Requires large computational resources due to 11M+ parameters.
+
 <img src="Output\restnet18.png"></img>
+
 
 #### NetOCR (Proposed CNN)
 
@@ -29,7 +31,7 @@ Loss: Both training and validation loss decrease consistently with less gap, sho
 
 Advantage: Only 424K parameters, ~26x fewer parameters than ResNet-18.
 
-![App Screenshot]("C:\PROJECTS\OCR\Output\cnn.png")
+<img src="Output\cnn.png"></img>
 
 ### ✅ Why NetOCR is Better
 
@@ -61,11 +63,12 @@ Efficient without sacrificing much accuracy.
 
 ### Restnet18:
 
-![App Screenshot]("C:\PROJECTS\OCR\Output\restnet18_ocr.png")
+<img src="Output\restnet18_ocr.png"></img>
+
 
 #### NetOCR:
 
-![App Screenshot]("C:\PROJECTS\OCR\Output\Proposed_cnn_ocr.png")
+<img src="Output\Proposed_cnn_ocr.png"></img>
 
 ### 🚀 Conclusion
 
